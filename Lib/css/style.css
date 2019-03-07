@@ -10,47 +10,68 @@ main{
 .panel-dashboard{
     width: 244px;
     min-height: 111px;
-    box-shadow: 2px 2px 2px #888888;
-    border-radius: 4%;
+    box-shadow: 0 0 7px #888888;
+    border-radius: 5px;
     display: flex;
     flex-direction: column;
     text-align: right;
+    overflow: hidden;
 }
 
-.panel-dashboard > header{
+.panel-inside > header{
     margin-right: 7px;
     margin-left: 7px;
     padding-top: 7px;
-    border-bottom: 1px solid #888888;
-    height: 75px;
+    height: 78px;
     line-height: 35px;
 }
 
-.panel-dashboard > header > span{
+.panel-inside > footer{
+    min-height: 35px;
+}
+
+.panel-inside > header > span{
     margin-right: 10px;
     font-size: 18px;
 }
 
-.panel-dashboard > header > h5{
+.panel-inside > header > h5{
     margin-right: 10px;
     font-size: 18px;
 }
 
 .sec-one{
-    background-color: #e84393;
+    background-color: #7164cd;
 }
 
 .sec-two{
-    background-color: #ff7675;
+    background-color: #2ab27b;
 }
 
 .sec-three{
-    background-color: #6c5ce7;
+    background-color: #8eb4cb;
 }
 
 .sec-four{
-    background-color: #74b9ff;
+    background-color: #c2c2c2;
 }
+
+.sec-one > .panel-inside > footer{
+    background-color: #6054b6;
+}
+
+.sec-two > .panel-inside > footer{
+    background-color: #1f9666;
+}
+
+.sec-three > .panel-inside > footer{
+    background-color: #6d97b0;
+}
+
+.sec-four > .panel-inside > footer{
+    background-color: #9f9f9f;
+}
+
 .section-one{
     width: 100%;
     display: flex;

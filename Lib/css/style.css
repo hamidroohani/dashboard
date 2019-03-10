@@ -235,11 +235,8 @@ main {
 .section-one {
     width: 100%;
     display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content: space-around;
-    align-items: stretch;
-    align-content: stretch;
 }
 
 .section-two{

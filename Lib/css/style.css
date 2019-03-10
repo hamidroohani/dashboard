@@ -263,6 +263,10 @@ main {
     padding-top: 17px;
 }
 
+.section-two > div > div > header > i {
+    color: #b9b9b9;
+}
+
 .section-two > div > div > header > h5 {
     font-weight: 300;
     font-size: 18px;
@@ -307,5 +311,9 @@ main {
 }
 
 .table td, .table th {
-    padding: 8px;
+    padding: 10px;
+}
+
+.table td{
+    font-size: 14px;
 }

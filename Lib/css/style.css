@@ -299,7 +299,7 @@ main {
 }
 
 .table-striped{
-    text-align: right;
+    text-align: center;
 }
 
 .table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
@@ -311,9 +311,45 @@ main {
 }
 
 .table td, .table th {
-    padding: 10px;
+    padding: 13px;
 }
 
 .table td{
     font-size: 14px;
+}
+
+.unorder-news{
+    text-align: right;
+    padding-right: 0;
+}
+
+.unorder-news > li{
+    display: inline-flex;
+    border-bottom: 1px solid  #f8f8f8;
+    padding-bottom: 14px;
+    margin-top: 9px;
+}
+
+li > .news-time{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    min-width: 75px;
+    height: 75px;
+    background-color: #f8f8f8;
+}
+
+li > .news-exerept{
+    margin-right: 19px;
+    margin-top: 15px;
+    line-height: 15px;
+}
+
+li > .news-exerept > h6{
+    color: #7b868a;
+}
+
+li > .news-exerept > span{
+    font-size: 12px;
 }
